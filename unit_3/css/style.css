@@ -1,13 +1,16 @@
+
 body{
-  text-align:center;
-  background: url("http://i.imgur.com/q0FaaAk.jpg");
+}
+#hero{
+  background: url("../images/wearex-hero.png") no-repeat center;
   background-size:cover;
-  color: #fff;
+    text-align:center;
+  color: #000000;
   font-family: Helvetica;
 }
-hr{
-  width:200px;
-}
+
+
+
 p {
   font-size: 22px;
 }
