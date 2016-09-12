@@ -1,18 +1,29 @@
 
 body{
-}
-#hero{
-  background: url("../images/wearex-hero.png") no-repeat center;
-  background-size:cover;
-    text-align:center;
-  color: #000000;
+  text-align:center;
+  color: #FFFFFF;
   font-family: Helvetica;
 }
 
+.hero{
+  background: url(../images/xjapan.jpg) no-repeat center;
+  background-size:cover;
+   height: 1000px;
+   image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+} 
 
 
-p {
-  font-size: 22px;
+.hero h2 {
+  font-family: Helvetica;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
 }
-
-     
