@@ -1,0 +1,102 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,500,700,700i);
+
+*{ 
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body { 
+font-family: 'Roboto 100', sans-serif;
+background-image:url(../images/wearex-hero.png); 
+background-size: cover; 
+background-attachment: fixed;
+background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/wearex-hero.png);
+}
+
+nav{
+  padding:10px;
+  padding:10px;
+  font-color: white;
+  text-align: center;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-color: white;
+  text-align: center;
+  display: inline;
+  padding: 5px;
+}
+
+hr{
+  width: 250px;
+  position:absolute;
+  top: 24%;
+  left:45%;
+  right:55%;
+  }
+
+footer p{
+ font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+ position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+ }
+
+#phero{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1rem;
+  transform: translate(-50%, -50%);
+ }
+
+#slogan {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
