@@ -53,8 +53,6 @@ nav a:hover {
   padding: 20px;
 }
 
-
-
 #left {
   background-color: #E582A2;
   border: 1px black solid;
@@ -139,7 +137,7 @@ footer{
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 809px) {
   body {
     font-size: 16px;
   }
