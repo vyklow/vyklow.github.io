@@ -162,7 +162,7 @@ footer{
   }
 
   nav:hover a {
-    display: block;
+    display: none;
   }
   
   header {
