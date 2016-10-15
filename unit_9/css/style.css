@@ -1,0 +1,198 @@
+
+
+.wrapper{
+  background-color:#FFE2B8;
+  width:100%;
+  margin-left:; auto;
+  margin-right:auto;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#hero_image{
+  background-color: #0abab5;
+  border: 1px black solid;
+  padding: 30px;
+  height: 400px;
+  background-image:url(../img/hero-image-1.jpg); 
+  background-size: cover; 
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/hero-image-1.jpg);
+}
+
+#hero_text{
+  font-color:white;
+  font-weight:normal;
+  font-style:italic;
+  font-size: 42px;
+  text-align: center;
+}
+
+nav {
+  text-align:center;
+  background-color: #333;
+  border: 1px black solid;
+}
+
+nav a{
+  display:block;
+  color: white;
+  width: 14.6666%;
+  float:left;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #E8C66A;
+}
+
+#products {
+  background-color: #E89C6C;
+  width:100%;
+}
+
+#left {
+  background-color: #E582A2;
+  border: 1px black solid;
+  padding: 1%;
+}
+
+#middle {
+  background-color: #E55B88;
+  border: 1px black solid;
+  padding: 1%;
+}
+
+#right {
+  background-color: #E59BA2;
+  border: 1px black solid;
+  padding: 1%; 
+}
+
+.pimage{
+  float: left;
+  margin: 0%;
+  border: 1px solid #ccc;
+  width: 30%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+
+footer{
+  clear: both;
+  background-color: #FF957E;
+  border: 1px black solid;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+#mobile {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+  .image-container {
+    background-image: url('../img/st-pdct-01.jpg');
+  }
+
+@media only screen and (min-width: 1800px) {
+  body {
+    font-size: 24px;
+  }
+  
+}
+
+@media only screen and (max-width: 1431px) {
+  footer p {
+    float: none;
+  }
+  footer {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    width:100%;
+    font-size: 18px;
+  }
+
+  main {
+    width: 55%;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    width: auto;
+    font-size: 16px;
+  }
+
+  main {
+    width: auto;
+    float: none;
+  }
+  
+  header {
+    padding: 0;
+    padding-bottom: 1em;
+  }
+
+}
+@media only screen and (max-width: 660px) {
+  #mobile {
+    display: block;
+  }
+  
+  nav a {
+    float: none;
+    width: auto;
+    padding: .25em 0;
+    display: none;
+  }
+
+  nav:hover a {
+    display: block;
+  }
+  
+  header {
+    padding: 0;
+    padding-bottom: 1em;
+  }
+
+  .pimage {
+    float: none;
+    width: auto;
+    min-width: 250px;
+  }
+
+  #wrapper {
+    width: auto;
+    padding: 1em;
+  }
+}
+
+
+
+
